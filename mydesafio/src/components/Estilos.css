@@ -1,0 +1,113 @@
+.tela_cadastro h1 {
+  color: rgba(75, 172, 198);
+  text-align: center;
+}
+.tela_cadastro span {
+  background: rgba(75, 172, 198);
+  color: #fff;
+  padding: 0px 10px;
+  border-radius: 10px;
+}
+
+.tela_principal {
+  display: flex;
+}
+.side_box {
+  width: 50%;
+  border: 4px solid rgba(75, 172, 198);
+  margin: 5px;
+}
+.tela_left {
+  background: rgba(75, 172, 198);
+}
+.tela_left button {
+  width: 200px;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: rgba(75, 172, 198);
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.tela_left .tela_de_dados {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  background: whitesmoke;
+  color: rgba(75, 172, 198);
+  padding: 10px;
+  font-size: 15px;
+  line-height: 0;
+}
+.form_tela_left input {
+  width: 300px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  margin: 15px;
+  background: rgba(75, 172, 198);
+}
+.form_tela_left fieldset {
+  border: 3.5px solid #fff;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form_tela_left legend {
+  color: #fff;
+  padding: 0px 10px;
+  font-weight: bold;
+}
+.form_tela_left input::placeholder {
+  color: #fff;
+}
+
+.tela_right {
+  background: #fff;
+}
+form fieldset {
+  border: 3.5px solid rgba(75, 172, 198);
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form legend {
+  color: rgba(75, 172, 198);
+  padding: 0px 10px;
+  font-weight: bold;
+}
+form input {
+  width: 300px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid rgba(75, 172, 198);
+  color: rgba(75, 172, 198);
+  margin: 15px;
+}
+form input::placeholder {
+  color: #bbbbbb;
+}
+form button {
+  width: 200px;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: rgba(75, 172, 198);
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+}
